@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/post-display-captain",
+	"version": "0.1.0",
+	"title": "Post Display Captain",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example static block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"categoryList": {
+			"type": "array",
+			"default": ""
+		}
+	},
+	"textdomain": "post-display-captain",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

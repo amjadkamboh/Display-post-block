@@ -1,0 +1,98 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.multiplewpm select {
+  height: auto !important;
+}
+
+.title-categories-wpm {
+  position: relative;
+  background: #fff;
+  padding: 30px 20px 10px;
+}
+.title-categories-wpm span.labing {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5px 10px;
+  font-size: 12px;
+  background: #3d6aab;
+  color: #fff;
+}
+.title-categories-wpm .components-base-control .components-input-control__container .components-select-control__input {
+  font-size: 16x;
+  -webkit-appearance: none;
+  max-width: unset;
+  -webkit-appearance: button;
+  -webkit-user-select: none;
+  min-height: 500px;
+  padding: 10px 10px;
+}
+.title-categories-wpm .components-base-control .components-input-control__container .components-select-control__input option {
+  -webkit-appearance: none;
+  padding: 10px 10px 10px 40px;
+  margin-bottom: 5px;
+  position: relative;
+}
+.title-categories-wpm .components-base-control .components-input-control__container .components-select-control__input option:after {
+  position: absolute;
+  content: "";
+  background: #fff;
+  width: 20px;
+  height: 20px;
+  left: 10px;
+  border-radius: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1px solid #888;
+}
+.title-categories-wpm .components-base-control .components-input-control__container .components-select-control__input option:checked:after {
+  background: #000;
+  border-color: #000;
+}
+.title-categories-wpm li {
+  list-style: none;
+}
+.title-categories-wpm ol, .title-categories-wpm ul {
+  margin: 0;
+  padding: 0;
+}
+
+.blog-category-wpm-section h2 {
+  color: #000000;
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.blog-category-wpm-section h2 span:after {
+  content: ", ";
+}
+.blog-category-wpm-section h2 span:last-child:after {
+  content: "";
+}
+.blog-category-wpm-section ul {
+  list-style-type: square;
+  font-size: 19px;
+  color: #3d6aab;
+  padding: 0 0 0 18px;
+  margin: 0;
+}
+.blog-category-wpm-section ul li {
+  padding-left: 20px;
+}
+.blog-category-wpm-section ul a {
+  color: #3d6aab;
+  font-weight: bold;
+  text-decoration: none;
+}
+.blog-category-wpm-section ul a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
