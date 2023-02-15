@@ -1,0 +1,96 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.multiplewpm select{
+    height:auto !important
+}
+ .title-categories-wpm {
+    position: relative;
+    background: #fff;
+    padding: 30px 20px 10px;
+    span.labing {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 5px 10px;
+        font-size: 12px;
+        background: #3d6aab;
+        color: #fff;
+    }
+    .components-base-control .components-input-control__container .components-select-control__input {
+        font-size: 16x;
+        -webkit-appearance: none;
+        max-width: unset;
+        -webkit-appearance: button;
+        -webkit-user-select: none;
+        min-height: 500px;
+        padding: 10px 10px;
+        option {
+            -webkit-appearance: none;
+            padding: 10px 10px 10px 40px;
+            margin-bottom: 5px;
+            position: relative;
+        }
+        
+        option:after {
+            position: absolute;
+            content: "";
+            background: #fff;
+            width: 20px;
+            height: 20px;
+            left: 10px;
+            border-radius: 2px;
+            top: 50%;
+            transform: translateY(-50%);
+            border: 1px solid #888;
+        }
+        
+        option:checked:after {
+            background: #000;
+            border-color: #000;
+        }
+    }
+    li{
+        list-style: none;
+    }
+    ol, ul{
+        margin:0;
+        padding:0;
+    }
+}
+
+.blog-category-wpm-section {
+    h2{
+        color: #000000;
+        font-size: 34px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        span:after{
+            content: ', ';
+        }
+        span:last-child:after{
+            content: "";
+        }
+    }
+    ul{
+        list-style-type: square;
+        font-size: 19px;
+        color: #3d6aab;
+        padding: 0 0 0 18px;
+        margin: 0;
+        li {
+            padding-left: 20px;
+        }
+        a{
+            color: #3d6aab;
+            font-weight: bold;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline; 
+            }
+        }
+    }
+}
